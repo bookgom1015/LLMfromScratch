@@ -1,0 +1,10 @@
+# Python 가상 환경
+.venv/
+venv/
+
+# Python 캐시
+__pycache__/
+*.pyc
+
+# 예제용 파일
+the-verdict.txt
