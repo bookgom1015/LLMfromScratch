@@ -1,6 +1,6 @@
 import re
 
-class SimpleVocabulary_V1:
+class SimpleVocabulary:
     def __init__(self, text):
         self.preprocessed = re.split(r'([,.:;?_!"()\']|--|\s)', text)
         self.preprocessed = [item.strip() for item in self.preprocessed if item.strip()]        
